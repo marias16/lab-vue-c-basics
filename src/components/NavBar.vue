@@ -1,4 +1,5 @@
 <script setup>
+const title = true;
 </script>
 
 <template>
@@ -7,6 +8,7 @@
     <li>About Us</li>
     <li>Contact Us</li>
 </ul>
+<h1 v-if="title">Title</h1>
 </template>
 
 <style scoped>
